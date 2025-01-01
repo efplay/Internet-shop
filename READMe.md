@@ -27,20 +27,20 @@
    ```bash
    git clone https://github.com/efplay/Internet-shop.git
    cd Internet-shop
-Install dependencies:
+2. Install dependencies:
    npm install
-   Run the project in development mode:
+3. Run the project in development mode:
 
 
    npm start
-Build the project for production:
+4. Build the project for production:
 
 
    npm run build
 
-Project Structure
+5. Project Structure
 
-Internet-shop/
+### Internet-shop/
 ├── src/                # Source files
 │   ├── index.html      # Main HTML file
 │   ├── styles/         # Styles (CSS, SCSS)
