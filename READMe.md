@@ -41,6 +41,7 @@
 
 5. Project Structure
 
+```bash
 ### Internet-shop/
 ├── src/                # Source files
 │   ├── index.html      # Main HTML file
