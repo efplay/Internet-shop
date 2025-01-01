@@ -4,7 +4,7 @@
 
 
 ### Description
-**Internet Shop** is a project of an online store built using modern technologies. The project allows users to browse products, add them to the cart, and place orders.
+**Internet Shop** is a project of an online store built using JS. 
 
 ---
 
