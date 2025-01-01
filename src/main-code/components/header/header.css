@@ -1,0 +1,22 @@
+/*  - ---  ---Header ---- - */
+.header{
+    background-color: white;
+    border:  navy;
+    margin-bottom: 20px; /*  command to indent down a block  */
+}   
+
+.header_container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo{
+    align-self: center;
+}
+
+
+/* Navigation ----*/
+.header_navigation{
+    display: flex;
+    
+}

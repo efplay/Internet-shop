@@ -1,0 +1,33 @@
+.basket-btn{
+    background-color: transparent;
+    border: none;
+    display: flex;
+    outline: none;
+    align-items: center;
+    border-radius: 0;
+    cursor: pointer;
+    padding: 15px;
+    transition: background-color .3s;
+}
+
+.basket-btn.active{
+    background-color: rgb(236,236,236);
+}
+
+.basket-btn svg {
+    width: 35px;
+    height: 35px;
+    transition: fill .3s;
+}
+
+.basket-btn:hover svg{
+    fill: #ffa413;
+}
+
+.basket-btn:active svg {
+    fill: #f08400;
+}
+
+.basket-btn:focus-visible{
+    background-color: #fde7cd;
+}

@@ -1,0 +1,19 @@
+{
+  "name": "internet-shop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel ./src/main.html",
+    "build": "parcel build ./src/main.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "navigo": "^8.11.1",
+    "parcel": "^2.13.2"
+  },
+  "devDependencies": {
+    "@parcel/transformer-inline-string": "^2.13.2"
+  }
+}

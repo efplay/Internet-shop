@@ -1,0 +1,83 @@
+html{
+    box-sizing: border-box;
+}
+
+*,
+::before,
+::after{
+    box-sizing: inherit;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+body,html{
+    height: 100%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to bottom, rgb(207, 207, 207),rgb(255, 255, 255));
+}
+
+.container{
+    max-width: 1200px;
+    padding: 24px 0 ;
+    margin: 24px auto; 
+}
+/*              Button         */
+.btn{
+    display: inline-block;
+    width: 200px;  /* Fixed button width */
+    height: 100%;/* The height of the button adapts to the parent container */
+    color:rgb(255, 255, 255);
+    font-weight:bold;
+    background-color: rgb(26, 102, 253);  /* Text color */
+    padding: 17px 30px; /* Internal indentation for larger button size */
+    border-radius: 14px ; /* Rounded edges for the button */
+    border: none; /* No frame */
+    outline: 2px solid transparent;  /* Transparent outline for an aesthetic effect when in focus */
+    transition: background-color .3s outline-color .3s; /* Smooth change of background and contour during interaction */
+}
+.btn.active{
+    background-color: rgb(5, 85, 245);
+}
+
+.btn:hover{
+    color: white;
+    background-color: rgb(42,113,253);
+}
+
+.btn:active{
+    color: white;
+    background-color: rgb(14,74,194);
+}
+
+.btn:focus-visible{
+    background-color: rgb(220,232,255);
+}
+
+
+
+
+
+/*                           list reset   */
+.list-reset{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* --       page product        */
+
+        /*  list of product */
+.product-list{
+    display: flex;
+    flex-wrap:wrap ; /* card stock movement */
+    gap: 20px; /* creates an indent between words */
+}
+
