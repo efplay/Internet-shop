@@ -1,5 +1,8 @@
 # Internet Shop
 
+![image](https://github.com/user-attachments/assets/d12162d6-ffd4-43ca-8c49-2dcc085ddc16)
+
+
 ### Description
 **Internet Shop** is a project of an online store built using modern technologies. The project allows users to browse products, add them to the cart, and place orders.
 
