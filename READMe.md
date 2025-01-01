@@ -10,10 +10,14 @@
 
 ### Features
 - **Home page** with a product catalog.
-- **Search and filtering** functionality for products.
 - **Shopping cart** feature.
 - **Checkout page** for placing orders.
-- **Responsive design** for all devices.
+
+---
+
+### Routing
+![image](https://github.com/user-attachments/assets/7d4598d7-d42c-436c-b61e-c540041a81c9)
+
 
 ---
 
