@@ -43,10 +43,11 @@
 
 ```bash
 ### Internet-shop/
-├── src/                # Source files
+├── src/
+│   ├── assets/            # Source files
 │   ├── index.html      # Main HTML file
-│   ├── styles/         # Styles (CSS, SCSS)
-│   └── scripts/        # Scripts (JS)
+│   ├── css/         # Styles (CSS, SCSS)
+│   └── main-code/        # Scripts (JS)
 ├── dist/               # Production build
 ├── .parcel-cache/      # Parcel cache
 ├── .gitignore          # Git ignore rules
