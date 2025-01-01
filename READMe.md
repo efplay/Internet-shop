@@ -28,14 +28,15 @@
    git clone https://github.com/efplay/Internet-shop.git
    cd Internet-shop
 2. Install dependencies:
+   ```bash
    npm install
 3. Run the project in development mode:
 
-
+   ```bash
    npm start
 4. Build the project for production:
 
-
+   ```bash
    npm run build
 
 5. Project Structure
